@@ -1,0 +1,6 @@
+# ninja log v5
+2	278	6713441248327907	CMakeFiles/HomeworkWeek10.dir/main.cpp.obj	3552e91f18a0a4ef
+278	389	6713441249398717	HomeworkWeek10.exe	abb61befa82c9732
+27	381	6713413666555477	CMakeFiles/HomeworkWeek10.dir/queueasArray.cpp.obj	c3a7526b80a96406
+2	285	6713387651208685	CMakeFiles/HomeworkWeek10.dir/exerciseOne.cpp.obj	f622588f5d5efb0e
+0	246	6713441723194546	build.ninja	b831030abd12bc98

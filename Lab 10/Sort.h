@@ -14,8 +14,8 @@ public:
     const static int n = 10000;
     Type arr[n];
     void getElement();
-    void merge(int array[], int left, int mid, int right);
-    void mergeSort(int array[], int const begin, int const end);
+    void merge(int *array, int left, int mid, int right);
+    void mergeSort(int *array, int const begin, int const end);
     void quickSort();
     void recquickSort(int first, int last);
     int partition(int first, int last);
@@ -23,7 +23,7 @@ public:
     void selectionSort();
     void insertionSort();
     void print();
-    void swap(int first, int second);
+    void swap(int &first, int &second);
     int minLocation(int first, int last);
 };
 template <class Type>
@@ -47,11 +47,11 @@ void Sort <Type> ::selectionSort() {
     }
 }
 template <class Type>
-void Sort<Type> :: swap(int first, int second){
+void Sort<Type> :: swap(int &first, int &second){
     Type temp;
-    temp = arr[first];
-    arr[first] = arr[second];
-    arr[second] = temp;
+    temp = first;
+    first = second;
+    second = temp;
 }
 
 template <class Type>
@@ -85,7 +85,7 @@ void Sort <Type> ::recquickSort(int first, int last) {
     }
 }
 template <class Type>
-void Sort <Type> ::merge(int array[], int left, int mid, int right){
+void Sort <Type> ::merge(int *array, int left, int mid, int right){
     auto const subArrayOne = mid - left + 1;
     auto const subArrayTwo = right - mid;
 
@@ -154,7 +154,7 @@ void Sort <Type> ::getElement() {
 
 }
 template <class Type>
-void Sort <Type> ::mergeSort(int array[], int const begin, int const end) {
+void Sort <Type> ::mergeSort(int *array, int const begin, int const end) {
 
     if (begin >= end) {
         return;// Returns recursively

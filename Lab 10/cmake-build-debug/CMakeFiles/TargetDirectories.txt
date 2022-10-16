@@ -1,0 +1,3 @@
+C:/Users/Shubham Mishra/CLionProjects/Lab 10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Shubham Mishra/CLionProjects/Lab 10/cmake-build-debug/CMakeFiles/Lab_10.dir
+C:/Users/Shubham Mishra/CLionProjects/Lab 10/cmake-build-debug/CMakeFiles/rebuild_cache.dir

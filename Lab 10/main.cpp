@@ -7,6 +7,7 @@ using namespace std;
 int main() {
     ofstream runData("runTime.txt");
     Sort <int> f;
+    /*
     f.getElement();
     cout << "Elements before bubble sort: ";
     f.print();
@@ -22,7 +23,6 @@ int main() {
     cout << "Elements after bubble sort: ";
     f.print();
     f.getElement();
-    f.print();
 
     f.getElement();
     cout << "Elements before insertion sort: ";
@@ -39,22 +39,23 @@ int main() {
     cout << "Elements after insertion sort: " ;
     f.print();
     f.getElement();
-
+    */
     f.getElement();
     cout << "Elements before merge sort: ";
     f.print();
 
-    clock_t m;
-    m = clock();
-    f.mergeSort(f.arr,0,999);
-    m  = clock() - m;
-    time_taken = ((double)m) / CLOCKS_PER_SEC;
-    runData << "Time taken for Merge Sort: " << time_taken << " seconds" << endl;
-    time_taken = 0;
+    //clock_t m;
+    //m = clock();
+    f.mergeSort(f.arr,0,f.n);
+    //m  = clock() - m;
+    //time_taken = ((double)m) / CLOCKS_PER_SEC;
+    //runData << "Time taken for Merge Sort: " << time_taken << " seconds" << endl;
+    //time_taken = 0;
 
     cout << "Elements after Merge Sort: ";
     f.print();
 
+    /*
     f.getElement();
     cout << "Elements before quick sort: ";
     f.print();
@@ -84,7 +85,7 @@ int main() {
 
     cout << "Elements after selection Sort: ";
     f.print();
-
+    */
 
 
 

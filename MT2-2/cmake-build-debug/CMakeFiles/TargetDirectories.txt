@@ -1,0 +1,3 @@
+C:/Users/Shubham Mishra/CLionProjects/MT2-2/cmake-build-debug/CMakeFiles/MT2_2.dir
+C:/Users/Shubham Mishra/CLionProjects/MT2-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Shubham Mishra/CLionProjects/MT2-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

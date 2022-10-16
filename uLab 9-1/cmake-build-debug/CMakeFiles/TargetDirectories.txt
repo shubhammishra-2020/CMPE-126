@@ -1,0 +1,3 @@
+C:/Users/Shubham Mishra/CLionProjects/uLab 9-1/cmake-build-debug/CMakeFiles/uLab_9_1.dir
+C:/Users/Shubham Mishra/CLionProjects/uLab 9-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Shubham Mishra/CLionProjects/uLab 9-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
